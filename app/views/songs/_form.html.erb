@@ -1,0 +1,3 @@
+<%= form_for [artist, artist.songs.new], remote: true do |f| %>
+  <%= f.text_field :name, placeholder: "Song name", id: "song-name" %>
+<% end %>

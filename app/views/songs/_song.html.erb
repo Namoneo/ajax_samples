@@ -1,0 +1,4 @@
+<li id="song-<%= song.id %>">
+  <%= song.name %>
+  <%= link_to "Delete", artist_song_path(artist, song), method: :delete, remote: true %>
+</li>
